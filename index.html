@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Agency</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="container nav-content">
+      <div class="logo">
+        <img src="assets/pesawat.png" alt="Logo Travel" class="logo-icon" />
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#package">Our Package</a></li>
+        <li><a href="#cta">Call Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="hero-text">
+    <div class="container">
+      <h1>Selamat Datang di AirLine Travel Agent Kami</h1>
+      <p class="slogan">Your happiness is our happiness</p>
+    </div>
+  </section>
+
+  <section class="contact-section container">
+    <div class="left">
+      <div class="slider">
+        <img src="assets/banner1.jpg" class="slide active" alt="Slide 1" />
+        <img src="assets/banner2.jpg" class="slide" alt="Slide 2" />
+        <img src="assets/banner3.jpg" class="slide" alt="Slide 3" />
+        <img src="assets/banner4.jpg" class="slide active" alt="Slide 4" />
+        <img src="assets/banner5.jpg" class="slide" alt="Slide 5" />
+        <img src="assets/banner6.jpg" class="slide" alt="Slide 6" />
+      </div>
+      <blockquote>“Liburan jadi menyenangkan bersama Travel Agentku.”</blockquote>
+      <p><strong>Renoca Highast</strong><br/>Ibu Rumah Tangga, 28</p>
+    </div>
+    <div class="right">
+      <h3>Contact Us</h3>
+      <p>Silakan isi formulir di bawah ini</p>
+      <form id="contactForm">
+        <label>Your Name</label>
+        <input type="text" id="name" required placeholder="Your name"/>
+
+        <label>Email Address</label>
+        <input type="email" id="email" required placeholder="example@mail.com"/>
+
+        <label>What are you interested in?</label>
+        <select id="destination" required>
+          <option value="">Select option</option>
+          <option value="Bali">Bali</option>
+          <option value="Japan">Japan</option>
+          <option value="Singapore">Singapore</option>
+        </select>
+
+        <button type="submit">SEND</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="about-travel">
+    <div class="container">
+      <div class="travel-box" data-aos="fade-up" data-aos-duration="1000">
+        <div class="icon-wrap">
+          <img src="assets/pesawat.png" alt="icon" class="travel-icon" />
+        </div>
+        <h2>Kenapa Memilih Kami?</h2>
+        <div class="divider"></div>
+        <p>
+          Kami adalah agen perjalanan terpercaya yang telah membantu ribuan orang mewujudkan liburan impian mereka. Dengan layanan personal, harga transparan, dan pengalaman luar biasa, kami hadir untuk memastikan setiap perjalanan Anda tak terlupakan.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="package" class="package">
+    <h2>Our Package</h2>
+    <div class="package-list">
+      <div class="package-item"><h3>Bali</h3><p>Wisata Bali dan kuliner lokal yang menarik.</p></div>
+      <div class="package-item"><h3>Japan</h3><p>Budaya Jepang yang unik dan penuh pesona.</p></div>
+      <div class="package-item"><h3>Singapore</h3><p>Negara kecil modern dengan wisata urban.</p></div>
+      <div class="package-item"><h3>Bandung</h3><p>Wisata alam dan fashion yang beragam.</p></div>
+      <div class="package-item"><h3>Surabaya</h3><p>Kota pahlawan dengan sejarah menarik.</p></div>
+      <div class="package-item"><h3>Padang</h3><p>Kota yang kental akan adat dan budaya.</p></div>
+    </div>
+  </section>
+
+  <section id="cta" class="cta">
+    <h2>Your Closing Argument Headline</h2>
+    <p>Kami siap membantu Anda menemukan liburan terbaik!</p>
+    <button>CALL TO ACTION</button>
+  </section>
+
+  <footer>
+    <p>Terms of Service | Privacy Policy © 2025</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
