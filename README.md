@@ -41,7 +41,10 @@ project-folder/
 │   ├── banner1.jpg
 │   ├── banner2.jpg
 │   ├── banner3.jpg
-│   └── logo-plane.svg
+│   ├── banner4.jpg
+│   ├── banner5.jpg
+│   ├── banner6.jpg
+│   └── pesawat.png
 └── README.md
 ```
 
@@ -51,14 +54,14 @@ project-folder/
 
 1. Clone repository:
    ```bash
-   git clone https://github.com/username/nama-repo-travel-agent.git
+   git clone https://github.com/revou-fundamental-course/05-may-25-Hidieo.git
    ```
 
 2. Buka `index.html` di browser (disarankan: Chrome)
 
 3. Untuk publikasi:
-   - Upload ke GitHub Pages via branch `main` atau `docs`
-   - URL akan berupa: `https://username.github.io/nama-repo-travel-agent`
+   - Upload ke GitHub Pages via branch `main`
+   - URL akan berupa: `https://revou-fundamental-course.github.io/05-may-25-Hidieo/`
 
 ---
 
@@ -71,19 +74,9 @@ Proyek ini dibuat sebagai simulasi peran software engineer dalam membuat website
 
 ---
 
-## 📸 Tampilan
-
-![screenshot](assets/banner1.jpg)
-
----
-
 ## 🧑‍💻 Author
 
 **Hidieo Riz'n**  
-Mini Project – Digital Skill Fair 38.0 – Backend Developer
+Mini Project – Software Engineering - RevoU
 
 ---
-
-## 📬 Kontak
-
-Untuk pertanyaan atau kolaborasi, hubungi melalui GitHub issue atau email pribadi.
